@@ -1,0 +1,6 @@
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\yuri.silenok.KPC\Desktop\demo2024\WpfApp2\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
