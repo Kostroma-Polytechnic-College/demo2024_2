@@ -27,8 +27,19 @@ namespace WpfApp2.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
-            mainWindow.frame.Navigate(new Test());
+            User user = Singleton.DB.User.FirstOrDefault(u =>
+                u.Username == username.Text 
+                && u.Password == password.Password);
+            
+            if (user == null)
+            {
+                MessageBox.Show("Не верный логин или пароль");
+            }
+            else
+            {
+                MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
+                mainWindow.frame.Navigate(new Test());
+            }
         }
     }
 }

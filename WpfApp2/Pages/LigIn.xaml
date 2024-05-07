@@ -10,9 +10,9 @@
 
     <Grid>
         <Label Content="Label" HorizontalAlignment="Left" Margin="1,1,0,0" VerticalAlignment="Top"/>
-        <TextBox Margin="1,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="username" Margin="1,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="0,57,0,0" VerticalAlignment="Top"/>
-        <PasswordBox Margin="0,89,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="password" Margin="0,89,0,0" VerticalAlignment="Top"/>
         <Button Content="Button" Margin="0,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.322,3.056" Click="Button_Click"/>
 
     </Grid>
