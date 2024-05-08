@@ -44,3 +44,9 @@ C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\D
 C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
 C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\WpfApp2.exe
 C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\Registration.g.cs
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\Roles.g.cs
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\Registration.baml
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\Roles.baml
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\EditUser.g.cs
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\Pages\EditUser.baml

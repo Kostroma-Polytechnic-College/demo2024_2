@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Администратор.412-13\Source\Repos\demo2024_2\WpfApp2\obj\Debug\
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\obj\Debug\
 WpfApp2
 none
 false
 DEBUG;TRACE
-C:\Users\Администратор.412-13\Source\Repos\demo2024_2\WpfApp2\App.xaml
-3-892951306
+C:\Users\Администратор.412-13\source\repos\demo2024_2\WpfApp2\App.xaml
+6-409934007
 2-1957146511
-14-1479294570
-181702912425
-MainWindow.xaml;Pages\LigIn.xaml;Pages\Test.xaml;
+17-1647869213
+181379280041
+MainWindow.xaml;Pages\EditUser.xaml;Pages\LigIn.xaml;Pages\Registration.xaml;Pages\Roles.xaml;Pages\Test.xaml;
 
 True
 

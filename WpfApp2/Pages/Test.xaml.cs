@@ -39,8 +39,41 @@ namespace WpfApp2.Pages
 
         private void filter_TextChanged(object sender, TextChangedEventArgs e)
         {
-           
-            //Singleton.DB.User.Local.Where(u => u.Username.Contains(filter.Text));
+            if (filter.Text == "")
+            {
+                Singleton.DB.User.ToList();
+                table.ItemsSource = Singleton.DB.User.Local;
+                table.CanUserAddRows = true;
+            }
+            else
+            {
+                table.ItemsSource = Singleton.DB.User.Where(u => 
+                    u.Username.Contains(filter.Text) ||
+                    u.Password.Contains(filter.Text)).ToList();
+                table.CanUserAddRows = false;
+            }
+
+        }
+
+        private void edit_Click(object sender, RoutedEventArgs e)
+        {
+            if(table.SelectedItem == null)
+            {
+                MessageBox.Show("Нужно выбрать пользователя");
+                return;
+            }    
+            MainWindow mainWindow = Window.GetWindow(this) as MainWindow;
+            mainWindow.frame.Navigate(new EditUser(table.SelectedItem as User));
+        }
+
+        private void delete_Click(object sender, RoutedEventArgs e)
+        {
+            if (table.SelectedItem == null)
+            {
+                MessageBox.Show("Нужно выбрать пользователя");
+                return;
+            }
+            Singleton.DB.User.Remove(table.SelectedItem as User);
         }
     }
 }

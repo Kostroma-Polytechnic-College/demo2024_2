@@ -13,6 +13,8 @@
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
                 <Button  Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top"  Click="Button_Click"/>
                 <TextBox x:Name="filter" TextWrapping="Wrap" Text="" Width="300" TextChanged="filter_TextChanged"/>
+                <Button x:Name="edit" Content="Изменить" Click="edit_Click"/>
+                <Button x:Name="delete" Content="Удалить" Click="delete_Click"/>
             </StackPanel>
             <DataGrid x:Name="table"/>
         </DockPanel>
